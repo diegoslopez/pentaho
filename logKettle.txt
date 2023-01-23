@@ -200,3 +200,377 @@
 2023/01/23 12:39:48 - Kitchen - ¡Finalizado!
 2023/01/23 12:39:48 - Kitchen - Comienzo=2023/01/23 12:39:07.436, Final=2023/01/23 12:39:48.914
 2023/01/23 12:39:48 - Kitchen - El procesamiento terminó luego de 41 segundos.
+2023/01/23 14:32:15 - Kitchen - Comienzo de la ejecución.
+2023/01/23 14:32:17 - Trabajo1 - Ejecución del trabajo comenzada
+2023/01/23 14:32:17 - Trabajo1 - Entrada de comienzo [Transformación1]
+2023/01/23 14:32:17 - Transformación1 - Using run configuration [Pentaho local]
+2023/01/23 14:32:17 - Transformación1 - Iniciado despacho de la transformación [Transformación1]
+2023/01/23 14:32:17 - Salida1 (PGSQL).0 - Connected to database [conexion_pg] (commit=1000)
+2023/01/23 14:32:17 - CSV file input.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Error inesperado
+2023/01/23 14:32:17 - CSV file input.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : org.pentaho.di.core.exception.KettleFileException: 
+2023/01/23 14:32:17 - CSV file input.0 - 
+2023/01/23 14:32:17 - CSV file input.0 - An error occurred while creating field mapping
+2023/01/23 14:32:17 - CSV file input.0 - Could not read from "file:///D:/Documents/GitHub/pentaho/artist_credit.csv" because it is not a file.
+2023/01/23 14:32:17 - CSV file input.0 - 
+2023/01/23 14:32:17 - CSV file input.0 - Could not read from "file:///D:/Documents/GitHub/pentaho/artist_credit.csv" because it is not a file.
+2023/01/23 14:32:17 - CSV file input.0 - 
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.steps.csvinput.CsvInput.readFieldNamesFromFile(CsvInput.java:481)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.steps.csvinput.CsvInput.createFieldMapping(CsvInput.java:445)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.steps.csvinput.CsvInput.openNextFile(CsvInput.java:334)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.steps.csvinput.CsvInput.processRow(CsvInput.java:137)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+2023/01/23 14:32:17 - CSV file input.0 - 	at java.lang.Thread.run(Thread.java:748)
+2023/01/23 14:32:17 - CSV file input.0 - Caused by: org.apache.commons.vfs2.FileNotFoundException: Could not read from "file:///D:/Documents/GitHub/pentaho/artist_credit.csv" because it is not a file.
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.AbstractFileObject.getInputStream(AbstractFileObject.java:1202)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.AbstractFileObject.getInputStream(AbstractFileObject.java:1185)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.DefaultFileContent.buildInputStream(DefaultFileContent.java:503)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.DefaultFileContent.getInputStream(DefaultFileContent.java:345)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.core.vfs.KettleVFS.getInputStream(KettleVFS.java:340)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.steps.csvinput.CsvInput.readFieldNamesFromFile(CsvInput.java:461)
+2023/01/23 14:32:17 - CSV file input.0 - 	... 5 more
+2023/01/23 14:32:17 - CSV file input.0 - Caused by: java.io.FileNotFoundException: D:\Documents\GitHub\pentaho\artist_credit.csv (El sistema no puede encontrar el archivo especificado)
+2023/01/23 14:32:17 - CSV file input.0 - 	at java.io.FileInputStream.open0(Native Method)
+2023/01/23 14:32:17 - CSV file input.0 - 	at java.io.FileInputStream.open(FileInputStream.java:195)
+2023/01/23 14:32:17 - CSV file input.0 - 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.local.LocalFile.doGetInputStream(LocalFile.java:107)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.AbstractFileObject.getInputStream(AbstractFileObject.java:1198)
+2023/01/23 14:32:17 - CSV file input.0 - 	... 10 more
+2023/01/23 14:32:17 - CSV file input.0 - Procesamiento finalizado (EN=0, SA=0, LE=0, ES=0, AC=0, ER=1)
+2023/01/23 14:32:17 - Transformación1 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : ¡Errores detectados!
+2023/01/23 14:32:17 - Transformación1 - La transformación ha detectado uno ó más pasos con errores.
+2023/01/23 14:32:17 - Transformación1 - ¡La transformación está matando los otros pasos!
+2023/01/23 14:32:17 - Transformación1 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : ¡Errores detectados!
+2023/01/23 14:32:17 - Trabajo1 - Entrada de comienzo [Registro de errores]
+2023/01/23 14:32:17 - Trabajo1 - Finalizó la entrada de trabajo [Registro de errores] (resultado=[false])
+2023/01/23 14:32:17 - Trabajo1 - Finalizó la entrada de trabajo [Transformación1] (resultado=[false])
+2023/01/23 14:32:17 - Trabajo1 - Entrada de comienzo [Transformación2]
+2023/01/23 14:32:17 - Transformación2 - Using run configuration [Pentaho local]
+2023/01/23 14:32:17 - Transformación2 - Iniciado despacho de la transformación [Transformación2]
+2023/01/23 14:32:17 - CSV file input.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Error inesperado
+2023/01/23 14:32:17 - CSV file input.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : org.pentaho.di.core.exception.KettleFileException: 
+2023/01/23 14:32:17 - CSV file input.0 - 
+2023/01/23 14:32:17 - CSV file input.0 - An error occurred while creating field mapping
+2023/01/23 14:32:17 - CSV file input.0 - Could not read from "file:///D:/Documents/GitHub/pentaho/artist_credit.csv" because it is not a file.
+2023/01/23 14:32:17 - CSV file input.0 - 
+2023/01/23 14:32:17 - CSV file input.0 - Could not read from "file:///D:/Documents/GitHub/pentaho/artist_credit.csv" because it is not a file.
+2023/01/23 14:32:17 - CSV file input.0 - 
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.steps.csvinput.CsvInput.readFieldNamesFromFile(CsvInput.java:481)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.steps.csvinput.CsvInput.createFieldMapping(CsvInput.java:445)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.steps.csvinput.CsvInput.openNextFile(CsvInput.java:334)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.steps.csvinput.CsvInput.processRow(CsvInput.java:137)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+2023/01/23 14:32:17 - CSV file input.0 - 	at java.lang.Thread.run(Thread.java:748)
+2023/01/23 14:32:17 - CSV file input.0 - Caused by: org.apache.commons.vfs2.FileNotFoundException: Could not read from "file:///D:/Documents/GitHub/pentaho/artist_credit.csv" because it is not a file.
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.AbstractFileObject.getInputStream(AbstractFileObject.java:1202)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.AbstractFileObject.getInputStream(AbstractFileObject.java:1185)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.DefaultFileContent.buildInputStream(DefaultFileContent.java:503)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.DefaultFileContent.getInputStream(DefaultFileContent.java:345)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.core.vfs.KettleVFS.getInputStream(KettleVFS.java:340)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.pentaho.di.trans.steps.csvinput.CsvInput.readFieldNamesFromFile(CsvInput.java:461)
+2023/01/23 14:32:17 - CSV file input.0 - 	... 5 more
+2023/01/23 14:32:17 - CSV file input.0 - Caused by: java.io.FileNotFoundException: D:\Documents\GitHub\pentaho\artist_credit.csv (El sistema no puede encontrar el archivo especificado)
+2023/01/23 14:32:17 - CSV file input.0 - 	at java.io.FileInputStream.open0(Native Method)
+2023/01/23 14:32:17 - CSV file input.0 - 	at java.io.FileInputStream.open(FileInputStream.java:195)
+2023/01/23 14:32:17 - CSV file input.0 - 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.local.LocalFile.doGetInputStream(LocalFile.java:107)
+2023/01/23 14:32:17 - CSV file input.0 - 	at org.apache.commons.vfs2.provider.AbstractFileObject.getInputStream(AbstractFileObject.java:1198)
+2023/01/23 14:32:17 - CSV file input.0 - 	... 10 more
+2023/01/23 14:32:17 - CSV file input.0 - Procesamiento finalizado (EN=0, SA=0, LE=0, ES=0, AC=0, ER=1)
+2023/01/23 14:32:17 - Transformación2 - La transformación ha detectado uno ó más pasos con errores.
+2023/01/23 14:32:17 - Transformación2 - ¡La transformación está matando los otros pasos!
+2023/01/23 14:32:17 - Transformación2 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : ¡Errores detectados!
+2023/01/23 14:32:18 - Transformación2 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : ¡Errores detectados!
+2023/01/23 14:32:18 - Trabajo1 - Entrada de comienzo [Registro de errores]
+2023/01/23 14:32:18 - Trabajo1 - Finalizó la entrada de trabajo [Registro de errores] (resultado=[false])
+2023/01/23 14:32:18 - Trabajo1 - Finalizó la entrada de trabajo [Transformación2] (resultado=[false])
+2023/01/23 14:32:18 - Trabajo1 - Ejecución del trabajo finalizada
+2023/01/23 14:32:18 - Kitchen - ¡Finalizado!
+2023/01/23 14:32:18 - Kitchen - Comienzo=2023/01/23 14:32:17.178, Final=2023/01/23 14:32:18.021
+2023/01/23 14:32:18 - Kitchen - El procesamiento terminó luego de 0 segundos.
+2023/01/23 14:56:35 - Kitchen - Comienzo de la ejecución.
+2023/01/23 14:56:36 - Trabajo1 - Ejecución del trabajo comenzada
+2023/01/23 14:56:36 - Trabajo1 - Entrada de comienzo [Transformación1]
+2023/01/23 14:56:36 - Transformación1 - Using run configuration [Pentaho local]
+2023/01/23 14:56:36 - Transformación1 - Iniciado despacho de la transformación [Transformación1]
+2023/01/23 14:56:37 - Salida1 (PGSQL).0 - Connected to database [conexion_pg] (commit=1000)
+2023/01/23 14:56:37 - CSV file input.0 - Se omitió la fila encabezado en el archivo "D:/Documents/GitHub/pentaho/artist_credit.csv"
+2023/01/23 14:56:37 - CSV file input.0 - Número de línea: 50000
+2023/01/23 14:56:37 - Data validator.0 - Linenr 50000
+2023/01/23 14:56:37 - CSV file input.0 - Número de línea: 100000
+2023/01/23 14:56:37 - Ordenar_id_descendente.0 - Linenr 50000
+2023/01/23 14:56:37 - Data validator.0 - Linenr 100000
+2023/01/23 14:56:37 - Ordenar_name_ascendente.0 - Linenr 50000
+2023/01/23 14:56:37 - CSV file input.0 - Número de línea: 150000
+2023/01/23 14:56:38 - Data validator.0 - Linenr 150000
+2023/01/23 14:56:38 - Ordenar_id_descendente.0 - Linenr 100000
+2023/01/23 14:56:38 - CSV file input.0 - Número de línea: 200000
+2023/01/23 14:56:38 - Data validator.0 - Linenr 200000
+2023/01/23 14:56:38 - CSV file input.0 - Número de línea: 250000
+2023/01/23 14:56:38 - Ordenar_id_descendente.0 - Linenr 150000
+2023/01/23 14:56:38 - Data validator.0 - Linenr 250000
+2023/01/23 14:56:38 - Ordenar_name_ascendente.0 - Linenr 100000
+2023/01/23 14:56:38 - CSV file input.0 - Número de línea: 300000
+2023/01/23 14:56:38 - Data validator.0 - Linenr 300000
+2023/01/23 14:56:38 - Ordenar_id_descendente.0 - Linenr 200000
+2023/01/23 14:56:39 - CSV file input.0 - Número de línea: 350000
+2023/01/23 14:56:39 - Data validator.0 - Linenr 350000
+2023/01/23 14:56:39 - CSV file input.0 - Número de línea: 400000
+2023/01/23 14:56:39 - Ordenar_name_ascendente.0 - Linenr 150000
+2023/01/23 14:56:39 - Data validator.0 - Linenr 400000
+2023/01/23 14:56:39 - Ordenar_id_descendente.0 - Linenr 250000
+2023/01/23 14:56:39 - CSV file input.0 - Número de línea: 450000
+2023/01/23 14:56:39 - Data validator.0 - Linenr 450000
+2023/01/23 14:56:39 - CSV file input.0 - Número de línea: 500000
+2023/01/23 14:56:39 - Ordenar_id_descendente.0 - Linenr 300000
+2023/01/23 14:56:39 - Data validator.0 - Linenr 500000
+2023/01/23 14:56:39 - Ordenar_name_ascendente.0 - Linenr 200000
+2023/01/23 14:56:40 - CSV file input.0 - Número de línea: 550000
+2023/01/23 14:56:40 - Data validator.0 - Linenr 550000
+2023/01/23 14:56:40 - CSV file input.0 - Número de línea: 600000
+2023/01/23 14:56:40 - Ordenar_name_ascendente.0 - Linenr 250000
+2023/01/23 14:56:40 - Data validator.0 - Linenr 600000
+2023/01/23 14:56:40 - CSV file input.0 - Número de línea: 650000
+2023/01/23 14:56:40 - Ordenar_name_ascendente.0 - Linenr 300000
+2023/01/23 14:56:40 - Data validator.0 - Linenr 650000
+2023/01/23 14:56:40 - Ordenar_id_descendente.0 - Linenr 350000
+2023/01/23 14:56:40 - CSV file input.0 - Número de línea: 700000
+2023/01/23 14:56:40 - Data validator.0 - Linenr 700000
+2023/01/23 14:56:40 - Ordenar_name_ascendente.0 - Linenr 350000
+2023/01/23 14:56:40 - CSV file input.0 - Número de línea: 750000
+2023/01/23 14:56:40 - Data validator.0 - Linenr 750000
+2023/01/23 14:56:40 - Ordenar_name_ascendente.0 - Linenr 400000
+2023/01/23 14:56:40 - CSV file input.0 - Número de línea: 800000
+2023/01/23 14:56:40 - Data validator.0 - Linenr 800000
+2023/01/23 14:56:40 - Ordenar_name_ascendente.0 - Linenr 450000
+2023/01/23 14:56:40 - CSV file input.0 - Número de línea: 850000
+2023/01/23 14:56:40 - Data validator.0 - Linenr 850000
+2023/01/23 14:56:40 - Ordenar_name_ascendente.0 - Linenr 500000
+2023/01/23 14:56:40 - CSV file input.0 - Número de línea: 900000
+2023/01/23 14:56:40 - Data validator.0 - Linenr 900000
+2023/01/23 14:56:40 - CSV file input.0 - Número de línea: 950000
+2023/01/23 14:56:40 - Ordenar_name_ascendente.0 - Linenr 550000
+2023/01/23 14:56:40 - Data validator.0 - Linenr 950000
+2023/01/23 14:56:40 - CSV file input.0 - Número de línea: 1000000
+2023/01/23 14:56:40 - Ordenar_name_ascendente.0 - Linenr 600000
+2023/01/23 14:56:40 - Data validator.0 - Linenr 1000000
+2023/01/23 14:56:41 - CSV file input.0 - Número de línea: 1050000
+2023/01/23 14:56:41 - Ordenar_name_ascendente.0 - Linenr 650000
+2023/01/23 14:56:41 - Data validator.0 - Linenr 1050000
+2023/01/23 14:56:41 - Ordenar_id_descendente.0 - Linenr 400000
+2023/01/23 14:56:41 - CSV file input.0 - Número de línea: 1100000
+2023/01/23 14:56:41 - Data validator.0 - Linenr 1100000
+2023/01/23 14:56:41 - Ordenar_name_ascendente.0 - Linenr 700000
+2023/01/23 14:56:41 - CSV file input.0 - Número de línea: 1150000
+2023/01/23 14:56:41 - Data validator.0 - Linenr 1150000
+2023/01/23 14:56:41 - CSV file input.0 - Procesamiento finalizado (EN=1188710, SA=0, LE=0, ES=1188709, AC=0, ER=0)
+2023/01/23 14:56:41 - Ordenar_name_ascendente.0 - Linenr 750000
+2023/01/23 14:56:41 - Strings cut.0 - Procesamiento finalizado (EN=0, SA=0, LE=1188709, ES=1188709, AC=0, ER=0)
+2023/01/23 14:56:41 - Data validator.0 - Procesamiento finalizado (EN=0, SA=0, LE=1188709, ES=764486, AC=0, ER=424223)
+2023/01/23 14:56:42 - Calcular.0 - Número de línea 50000
+2023/01/23 14:56:42 - Salida2 (XLS).0 - linenr 50000
+2023/01/23 14:56:42 - Calcular.0 - Número de línea 100000
+2023/01/23 14:56:42 - Salida2 (XLS).0 - linenr 100000
+2023/01/23 14:56:42 - Calcular.0 - Número de línea 150000
+2023/01/23 14:56:42 - Salida2 (XLS).0 - linenr 150000
+2023/01/23 14:56:42 - Calcular.0 - Número de línea 200000
+2023/01/23 14:56:42 - Salida2 (XLS).0 - linenr 200000
+2023/01/23 14:56:42 - Calcular.0 - Número de línea 250000
+2023/01/23 14:56:42 - Salida2 (XLS).0 - linenr 250000
+2023/01/23 14:56:42 - Calcular.0 - Número de línea 300000
+2023/01/23 14:56:42 - Salida2 (XLS).0 - linenr 300000
+2023/01/23 14:56:42 - Calcular.0 - Número de línea 350000
+2023/01/23 14:56:42 - Salida2 (XLS).0 - linenr 350000
+2023/01/23 14:56:42 - Calcular.0 - Número de línea 400000
+2023/01/23 14:56:42 - Salida2 (XLS).0 - linenr 400000
+2023/01/23 14:56:42 - Ordenar_id_descendente.0 - Procesamiento finalizado (EN=0, SA=0, LE=424223, ES=424223, AC=0, ER=0)
+2023/01/23 14:56:42 - Calcular.0 - Procesamiento finalizado (EN=0, SA=0, LE=424223, ES=424223, AC=0, ER=0)
+2023/01/23 14:56:42 - Salida2 (XLS).0 - Procesamiento finalizado (EN=0, SA=424224, LE=424223, ES=424223, AC=0, ER=0)
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1020914], [! Obtain?], [1], [2], [2012-07-20 06:29:44.954539-03], [2012-07-20]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: no existe la relación «public.salida1»
+  Position: 13
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1641395], [!!*], [1], [10], [2016-04-11 00:00:15.920812-03], [2016-04-11]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1161771], [!!aSQ!!], [1], [2], [2013-05-05 13:14:41.507093-03], [2013-05-05]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [956389], [!((0rkza1 vs. kaneel], [2], [2], [2012-03-14 14:00:06.068012-03], [2012-03-14]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [956390], [!((0rkza1 vs. kaneel vs. Urkuma], [3], [2], [2012-03-14 14:00:06.682823-03], [2012-03-14]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1390511], [!>-lys3rg1c /\c1d], [1], [2], [2014-11-19 16:11:28.974312-03], [2014-11-19]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [824948], [!Action Pact! / Dead Man's Shadow], [2], [2], [2011-05-29 17:55:17.422353-03], [2011-05-29]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1211513], [!Action Pact! feat. Steve Drewett], [2], [1], [2013-08-30 18:09:45.963305-03], [2013-08-30]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1527819], [!Attention!], [1], [10], [2015-08-29 12:22:34.446697-03], [2015-08-29]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1475488], [!Attention!], [1], [2], [2015-05-15 02:01:31.2607-03], [2015-05-15]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1759336], [!AÃ¯BoFoRcEn<-], [1], [4], [2016-11-24 11:41:57.725798-03], [2016-11-24]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1464404], [!DISDAIN], [1], [2], [2015-04-20 04:19:37.615884-03], [2015-04-20]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1469086], [!Dela Dap], [1], [1], [2015-05-01 00:26:13.040851-03], [2015-05-01]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [890447], [!DelaDap feat. 17 Hippies], [2], [8], [2011-11-27 19:29:02.79025-03], [2011-11-27]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1112926], [!DelaDap feat. Leonsia Erdenke], [2], [2], [2013-01-16 06:00:17.08599-03], [2013-01-16]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1517735], [!DelaDap feat. Yola B.], [2], [2], [2015-08-06 23:26:50.149566-03], [2015-08-06]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1634759], [!DelaDap!], [1], [2], [2016-03-29 10:00:18.04309-03], [2016-03-29]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1630583], [!Hero: The Rock Opera], [1], [1], [2016-03-21 19:15:53.755135-03], [2016-03-21]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [1714335], [!LL BLACKA], [1], [16], [2016-09-08 14:29:00.511613-03], [2016-09-08]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - WARNING: Couldn't insert row into table: [958045], [!Loca! feat. Natacha Atlas], [2], [3], [2012-03-18 20:47:06.559204-03], [2012-03-18]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - FINAL WARNING (no more then 20 displayed): Couldn't insert row into table: [1548800], [!Reagan SS!], [1], [14], [2015-10-13 20:55:17.824306-03], [2015-10-13]
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - 
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - Error inserting/updating row
+2023/01/23 14:56:43 - Salida1 (PGSQL).0 - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023/01/23 14:56:44 - Salida1 (PGSQL).0 - linenr 50000
+2023/01/23 14:56:45 - Salida1 (PGSQL).0 - linenr 100000
+2023/01/23 14:56:47 - Salida1 (PGSQL).0 - linenr 150000
+2023/01/23 14:56:48 - Salida1 (PGSQL).0 - linenr 200000
+2023/01/23 14:56:49 - Salida1 (PGSQL).0 - linenr 250000
+2023/01/23 14:56:51 - Salida1 (PGSQL).0 - linenr 300000
+2023/01/23 14:56:52 - Salida1 (PGSQL).0 - linenr 350000
+2023/01/23 14:56:53 - Salida1 (PGSQL).0 - linenr 400000
+2023/01/23 14:56:55 - Salida1 (PGSQL).0 - linenr 450000
+2023/01/23 14:56:56 - Salida1 (PGSQL).0 - linenr 500000
+2023/01/23 14:56:57 - Salida1 (PGSQL).0 - linenr 550000
+2023/01/23 14:56:59 - Salida1 (PGSQL).0 - linenr 600000
+2023/01/23 14:57:00 - Salida1 (PGSQL).0 - linenr 650000
+2023/01/23 14:57:01 - Salida1 (PGSQL).0 - linenr 700000
+2023/01/23 14:57:03 - Salida1 (PGSQL).0 - linenr 750000
+2023/01/23 14:57:03 - Ordenar_name_ascendente.0 - Procesamiento finalizado (EN=0, SA=0, LE=764486, ES=764486, AC=0, ER=0)
+2023/01/23 14:57:03 - Salida1 (PGSQL).0 - Procesamiento finalizado (EN=0, SA=764486, LE=764486, ES=764486, AC=0, ER=0)
+2023/01/23 14:57:03 - Trabajo1 - Entrada de comienzo [Los procesos se ejecutaron con Éxito]
+2023/01/23 14:57:03 - Trabajo1 - Finalizó la entrada de trabajo [Los procesos se ejecutaron con Éxito] (resultado=[true])
+2023/01/23 14:57:03 - Trabajo1 - Finalizó la entrada de trabajo [Transformación1] (resultado=[true])
+2023/01/23 14:57:03 - Trabajo1 - Entrada de comienzo [Transformación2]
+2023/01/23 14:57:03 - Transformación2 - Using run configuration [Pentaho local]
+2023/01/23 14:57:03 - Transformación2 - Iniciado despacho de la transformación [Transformación2]
+2023/01/23 14:57:03 - CSV file input.0 - Se omitió la fila encabezado en el archivo "D:/Documents/GitHub/pentaho/artist_credit.csv"
+2023/01/23 14:57:04 - CSV file input.0 - Número de línea: 50000
+2023/01/23 14:57:04 - Validar_anio.0 - Linenr 50000
+2023/01/23 14:57:04 - Sin coincidencias..0 - Número de línea 50000
+2023/01/23 14:57:04 - CSV file input.0 - Número de línea: 100000
+2023/01/23 14:57:04 - Validar_anio.0 - Linenr 100000
+2023/01/23 14:57:04 - Sin coincidencias..0 - Número de línea 100000
+2023/01/23 14:57:04 - CSV file input.0 - Número de línea: 150000
+2023/01/23 14:57:04 - Validar_anio.0 - Linenr 150000
+2023/01/23 14:57:04 - Sin coincidencias..0 - Número de línea 150000
+2023/01/23 14:57:05 - CSV file input.0 - Número de línea: 200000
+2023/01/23 14:57:05 - Validar_anio.0 - Linenr 200000
+2023/01/23 14:57:05 - Sin coincidencias..0 - Número de línea 200000
+2023/01/23 14:57:05 - CSV file input.0 - Número de línea: 250000
+2023/01/23 14:57:05 - Validar_anio.0 - Linenr 250000
+2023/01/23 14:57:05 - Sin coincidencias..0 - Número de línea 250000
+2023/01/23 14:57:05 - CSV file input.0 - Número de línea: 300000
+2023/01/23 14:57:05 - Validar_anio.0 - Linenr 300000
+2023/01/23 14:57:05 - Sin coincidencias..0 - Número de línea 300000
+2023/01/23 14:57:06 - CSV file input.0 - Número de línea: 350000
+2023/01/23 14:57:06 - Validar_anio.0 - Linenr 350000
+2023/01/23 14:57:06 - Sin coincidencias..0 - Número de línea 350000
+2023/01/23 14:57:06 - CSV file input.0 - Número de línea: 400000
+2023/01/23 14:57:06 - Validar_anio.0 - Linenr 400000
+2023/01/23 14:57:06 - Sin coincidencias..0 - Número de línea 400000
+2023/01/23 14:57:06 - CSV file input.0 - Número de línea: 450000
+2023/01/23 14:57:06 - Validar_anio.0 - Linenr 450000
+2023/01/23 14:57:06 - Sin coincidencias..0 - Número de línea 450000
+2023/01/23 14:57:07 - CSV file input.0 - Número de línea: 500000
+2023/01/23 14:57:07 - Validar_anio.0 - Linenr 500000
+2023/01/23 14:57:07 - Sin coincidencias..0 - Número de línea 500000
+2023/01/23 14:57:07 - CSV file input.0 - Número de línea: 550000
+2023/01/23 14:57:07 - Validar_anio.0 - Linenr 550000
+2023/01/23 14:57:07 - Sin coincidencias..0 - Número de línea 550000
+2023/01/23 14:57:07 - CSV file input.0 - Número de línea: 600000
+2023/01/23 14:57:07 - Validar_anio.0 - Linenr 600000
+2023/01/23 14:57:07 - Sin coincidencias..0 - Número de línea 600000
+2023/01/23 14:57:08 - CSV file input.0 - Número de línea: 650000
+2023/01/23 14:57:08 - Validar_anio.0 - Linenr 650000
+2023/01/23 14:57:08 - Sin coincidencias..0 - Número de línea 650000
+2023/01/23 14:57:08 - CSV file input.0 - Número de línea: 700000
+2023/01/23 14:57:08 - Validar_anio.0 - Linenr 700000
+2023/01/23 14:57:08 - Sin coincidencias..0 - Número de línea 700000
+2023/01/23 14:57:08 - CSV file input.0 - Número de línea: 750000
+2023/01/23 14:57:08 - Validar_anio.0 - Linenr 750000
+2023/01/23 14:57:08 - Sin coincidencias..0 - Número de línea 750000
+2023/01/23 14:57:09 - CSV file input.0 - Número de línea: 800000
+2023/01/23 14:57:09 - Validar_anio.0 - Linenr 800000
+2023/01/23 14:57:09 - Sin coincidencias..0 - Número de línea 800000
+2023/01/23 14:57:09 - CSV file input.0 - Número de línea: 850000
+2023/01/23 14:57:09 - Validar_anio.0 - Linenr 850000
+2023/01/23 14:57:09 - Sin coincidencias..0 - Número de línea 850000
+2023/01/23 14:57:09 - CSV file input.0 - Número de línea: 900000
+2023/01/23 14:57:09 - Validar_anio.0 - Linenr 900000
+2023/01/23 14:57:09 - Sin coincidencias..0 - Número de línea 900000
+2023/01/23 14:57:10 - CSV file input.0 - Número de línea: 950000
+2023/01/23 14:57:10 - Validar_anio.0 - Linenr 950000
+2023/01/23 14:57:10 - Sin coincidencias..0 - Número de línea 950000
+2023/01/23 14:57:10 - CSV file input.0 - Número de línea: 1000000
+2023/01/23 14:57:10 - Validar_anio.0 - Linenr 1000000
+2023/01/23 14:57:10 - Sin coincidencias..0 - Número de línea 1000000
+2023/01/23 14:57:10 - CSV file input.0 - Número de línea: 1050000
+2023/01/23 14:57:10 - Validar_anio.0 - Linenr 1050000
+2023/01/23 14:57:10 - Sin coincidencias..0 - Número de línea 1050000
+2023/01/23 14:57:11 - CSV file input.0 - Número de línea: 1100000
+2023/01/23 14:57:11 - Validar_anio.0 - Linenr 1100000
+2023/01/23 14:57:11 - Sin coincidencias..0 - Número de línea 1100000
+2023/01/23 14:57:11 - CSV file input.0 - Número de línea: 1150000
+2023/01/23 14:57:11 - Validar_anio.0 - Linenr 1150000
+2023/01/23 14:57:11 - Sin coincidencias..0 - Número de línea 1150000
+2023/01/23 14:57:11 - CSV file input.0 - Procesamiento finalizado (EN=1188710, SA=0, LE=0, ES=1188709, AC=0, ER=0)
+2023/01/23 14:57:11 - Obtener_year.0 - Procesamiento finalizado (EN=0, SA=0, LE=1188709, ES=1188709, AC=0, ER=0)
+2023/01/23 14:57:11 - Validar_anio.0 - Procesamiento finalizado (EN=0, SA=0, LE=1188709, ES=0, AC=0, ER=1188709)
+2023/01/23 14:57:11 - Sin coincidencias..0 - Procesamiento finalizado (EN=0, SA=0, LE=1188709, ES=1188709, AC=0, ER=0)
+2023/01/23 14:57:11 - Trabajo1 - Entrada de comienzo [Los procesos se ejecutaron con Éxito]
+2023/01/23 14:57:11 - Trabajo1 - Finalizó la entrada de trabajo [Los procesos se ejecutaron con Éxito] (resultado=[true])
+2023/01/23 14:57:11 - Trabajo1 - Finalizó la entrada de trabajo [Transformación2] (resultado=[true])
+2023/01/23 14:57:11 - Trabajo1 - Ejecución del trabajo finalizada
+2023/01/23 14:57:11 - Kitchen - ¡Finalizado!
+2023/01/23 14:57:11 - Kitchen - Comienzo=2023/01/23 14:56:36.638, Final=2023/01/23 14:57:11.844
+2023/01/23 14:57:11 - Kitchen - El procesamiento terminó luego de 35 segundos.

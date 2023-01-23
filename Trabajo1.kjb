@@ -325,13 +325,13 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Transformación1</name>
+      <name>Transformacion1</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>${PATH}Transformación1.ktr</filename>
+      <filename>${PATH}Transformacion1.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -355,6 +355,16 @@
       <suppress_result_data>N</suppress_result_data>
       <parameters>
         <pass_all_parameters>Y</pass_all_parameters>
+        <parameter>
+          <name>FECHA_INGRESADA</name>
+          <stream_name/>
+          <value>2011-05-17</value>
+        </parameter>
+        <parameter>
+          <name>PATH</name>
+          <stream_name/>
+          <value>D:/Documents/GitHub/pentaho/</value>
+        </parameter>
       </parameters>
       <parallel>N</parallel>
       <draw>Y</draw>
@@ -364,13 +374,13 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Transformación2</name>
+      <name>Transformacion2</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>${PATH}Transformación2.ktr</filename>
+      <filename>${PATH}Transformacion2.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -386,7 +396,7 @@
       <cluster>N</cluster>
       <slave_server_name/>
       <set_append_logfile>N</set_append_logfile>
-      <wait_until_finished>Y</wait_until_finished>
+      <wait_until_finished>N</wait_until_finished>
       <follow_abort_remote>N</follow_abort_remote>
       <create_parent_folder>N</create_parent_folder>
       <logging_remote_work>N</logging_remote_work>
@@ -394,12 +404,27 @@
       <suppress_result_data>N</suppress_result_data>
       <parameters>
         <pass_all_parameters>Y</pass_all_parameters>
+        <parameter>
+          <name>FECHA_INGRESADA</name>
+          <stream_name/>
+          <value>2011-05-17</value>
+        </parameter>
+        <parameter>
+          <name>FECHA_INGRESADA_YEAR</name>
+          <stream_name/>
+          <value>LEFT(${FECHA_INGRESADA};4)</value>
+        </parameter>
+        <parameter>
+          <name>PATH</name>
+          <stream_name/>
+          <value>D:/Documents/GitHub/pentaho/</value>
+        </parameter>
       </parameters>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>304</xloc>
-      <yloc>288</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -432,14 +457,14 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>608</xloc>
-      <yloc>160</yloc>
+      <xloc>624</xloc>
+      <yloc>144</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
   <hops>
     <hop>
-      <from>Transformación1</from>
+      <from>Transformacion1</from>
       <to>Los procesos se ejecutaron con Éxito</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -448,7 +473,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Transformación2</from>
+      <from>Transformacion2</from>
       <to>Los procesos se ejecutaron con Éxito</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -458,7 +483,7 @@
     </hop>
     <hop>
       <from>Start</from>
-      <to>Transformación1</to>
+      <to>Transformacion1</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -467,7 +492,7 @@
     </hop>
     <hop>
       <from>Start</from>
-      <to>Transformación2</to>
+      <to>Transformacion2</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -475,7 +500,7 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>Transformación1</from>
+      <from>Transformacion1</from>
       <to>Registro de errores</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -484,7 +509,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Transformación2</from>
+      <from>Transformacion2</from>
       <to>Registro de errores</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>

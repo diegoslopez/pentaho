@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>Transformación2</name>
+    <name>Transformacion2</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -10,19 +10,9 @@
     <directory>/</directory>
     <parameters>
       <parameter>
-        <name>FECHA_INGRESADA</name>
-        <default_value>2011-05-17</default_value>
-        <description>Fecha ingresada por parámetro.</description>
-      </parameter>
-      <parameter>
-        <name>FECHA_INGRESADA_YEAR</name>
-        <default_value>2011</default_value>
-        <description/>
-      </parameter>
-      <parameter>
         <name>PATH</name>
         <default_value>D:/Documents/GitHub/pentaho/</default_value>
-        <description>Lugar donde se encuentran alojados los archivos</description>
+        <description/>
       </parameter>
     </parameters>
     <log>
@@ -1004,7 +994,7 @@
     <concat_errors>N</concat_errors>
     <concat_separator>|</concat_separator>
     <validator_field>
-      <name>createdYear</name>
+      <name>created</name>
       <validation_name>VALIDATE</validation_name>
       <max_length/>
       <min_length/>
