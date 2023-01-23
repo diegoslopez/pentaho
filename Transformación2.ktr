@@ -15,6 +15,11 @@
         <description>Fecha ingresada por parámetro.</description>
       </parameter>
       <parameter>
+        <name>FECHA_INGRESADA_YEAR</name>
+        <default_value>2011</default_value>
+        <description/>
+      </parameter>
+      <parameter>
         <name>PATH</name>
         <default_value>D:/Documents/GitHub/pentaho/</default_value>
         <description>Lugar donde se encuentran alojados los archivos</description>
