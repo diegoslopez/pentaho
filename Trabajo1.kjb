@@ -23,7 +23,7 @@
     </parameter>
     <parameter>
       <name>PATH</name>
-      <default_value>D:/Documents/NBCH/desafío/</default_value>
+      <default_value>D:/Documents/GitHub/pentaho/</default_value>
       <description>Lugar donde se encuentran alojados los archivos</description>
     </parameter>
   </parameters>

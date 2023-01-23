@@ -16,7 +16,7 @@
       </parameter>
       <parameter>
         <name>PATH</name>
-        <default_value>D:/Documents/NBCH/desafío/</default_value>
+        <default_value>D:/Documents/GitHub/pentaho/</default_value>
         <description>Lugar donde se encuentran alojados los archivos</description>
       </parameter>
     </parameters>
@@ -469,7 +469,7 @@
     <notepad>
       <note>TRANSFORMACIÓN</note>
       <xloc>432</xloc>
-      <yloc>336</yloc>
+      <yloc>288</yloc>
       <width>117</width>
       <heigth>26</heigth>
       <fontname>Segoe UI</fontname>

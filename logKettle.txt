@@ -1,0 +1,202 @@
+2023/01/23 12:39:06 - Kitchen - Comienzo de la ejecución.
+2023/01/23 12:39:07 - Trabajo1 - Ejecución del trabajo comenzada
+2023/01/23 12:39:07 - Trabajo1 - Entrada de comienzo [Transformación1]
+2023/01/23 12:39:07 - Transformación1 - Using run configuration [Pentaho local]
+2023/01/23 12:39:07 - Transformación1 - Iniciado despacho de la transformación [Transformación1]
+2023/01/23 12:39:07 - Salida1 (PGSQL).0 - Connected to database [conexion_pg] (commit=1000)
+2023/01/23 12:39:07 - CSV file input.0 - Se omitió la fila encabezado en el archivo "D:/Documents/NBCH/desafío/artist_credit.csv"
+2023/01/23 12:39:08 - CSV file input.0 - Número de línea: 50000
+2023/01/23 12:39:08 - Data validator.0 - Linenr 50000
+2023/01/23 12:39:08 - CSV file input.0 - Número de línea: 100000
+2023/01/23 12:39:08 - Ordenar_id_descendente.0 - Linenr 50000
+2023/01/23 12:39:08 - Data validator.0 - Linenr 100000
+2023/01/23 12:39:08 - Ordenar_name_ascendente.0 - Linenr 50000
+2023/01/23 12:39:08 - CSV file input.0 - Número de línea: 150000
+2023/01/23 12:39:08 - Data validator.0 - Linenr 150000
+2023/01/23 12:39:08 - Ordenar_id_descendente.0 - Linenr 100000
+2023/01/23 12:39:08 - CSV file input.0 - Número de línea: 200000
+2023/01/23 12:39:09 - Data validator.0 - Linenr 200000
+2023/01/23 12:39:09 - CSV file input.0 - Número de línea: 250000
+2023/01/23 12:39:09 - Ordenar_id_descendente.0 - Linenr 150000
+2023/01/23 12:39:09 - Data validator.0 - Linenr 250000
+2023/01/23 12:39:09 - Ordenar_name_ascendente.0 - Linenr 100000
+2023/01/23 12:39:09 - CSV file input.0 - Número de línea: 300000
+2023/01/23 12:39:09 - Data validator.0 - Linenr 300000
+2023/01/23 12:39:09 - Ordenar_id_descendente.0 - Linenr 200000
+2023/01/23 12:39:09 - CSV file input.0 - Número de línea: 350000
+2023/01/23 12:39:09 - Data validator.0 - Linenr 350000
+2023/01/23 12:39:09 - CSV file input.0 - Número de línea: 400000
+2023/01/23 12:39:10 - Ordenar_name_ascendente.0 - Linenr 150000
+2023/01/23 12:39:10 - Data validator.0 - Linenr 400000
+2023/01/23 12:39:10 - Ordenar_id_descendente.0 - Linenr 250000
+2023/01/23 12:39:10 - CSV file input.0 - Número de línea: 450000
+2023/01/23 12:39:10 - Data validator.0 - Linenr 450000
+2023/01/23 12:39:10 - CSV file input.0 - Número de línea: 500000
+2023/01/23 12:39:10 - Ordenar_id_descendente.0 - Linenr 300000
+2023/01/23 12:39:10 - Data validator.0 - Linenr 500000
+2023/01/23 12:39:10 - Ordenar_name_ascendente.0 - Linenr 200000
+2023/01/23 12:39:10 - CSV file input.0 - Número de línea: 550000
+2023/01/23 12:39:10 - Data validator.0 - Linenr 550000
+2023/01/23 12:39:10 - CSV file input.0 - Número de línea: 600000
+2023/01/23 12:39:10 - Ordenar_name_ascendente.0 - Linenr 250000
+2023/01/23 12:39:10 - Data validator.0 - Linenr 600000
+2023/01/23 12:39:10 - CSV file input.0 - Número de línea: 650000
+2023/01/23 12:39:10 - Ordenar_name_ascendente.0 - Linenr 300000
+2023/01/23 12:39:10 - Data validator.0 - Linenr 650000
+2023/01/23 12:39:10 - Ordenar_id_descendente.0 - Linenr 350000
+2023/01/23 12:39:11 - CSV file input.0 - Número de línea: 700000
+2023/01/23 12:39:11 - Data validator.0 - Linenr 700000
+2023/01/23 12:39:11 - Ordenar_name_ascendente.0 - Linenr 350000
+2023/01/23 12:39:11 - CSV file input.0 - Número de línea: 750000
+2023/01/23 12:39:11 - Data validator.0 - Linenr 750000
+2023/01/23 12:39:11 - Ordenar_name_ascendente.0 - Linenr 400000
+2023/01/23 12:39:11 - CSV file input.0 - Número de línea: 800000
+2023/01/23 12:39:11 - Data validator.0 - Linenr 800000
+2023/01/23 12:39:11 - Ordenar_name_ascendente.0 - Linenr 450000
+2023/01/23 12:39:11 - CSV file input.0 - Número de línea: 850000
+2023/01/23 12:39:11 - Data validator.0 - Linenr 850000
+2023/01/23 12:39:11 - Ordenar_name_ascendente.0 - Linenr 500000
+2023/01/23 12:39:11 - CSV file input.0 - Número de línea: 900000
+2023/01/23 12:39:11 - Data validator.0 - Linenr 900000
+2023/01/23 12:39:11 - Ordenar_name_ascendente.0 - Linenr 550000
+2023/01/23 12:39:11 - CSV file input.0 - Número de línea: 950000
+2023/01/23 12:39:11 - Data validator.0 - Linenr 950000
+2023/01/23 12:39:11 - CSV file input.0 - Número de línea: 1000000
+2023/01/23 12:39:11 - Ordenar_name_ascendente.0 - Linenr 600000
+2023/01/23 12:39:11 - Data validator.0 - Linenr 1000000
+2023/01/23 12:39:11 - CSV file input.0 - Número de línea: 1050000
+2023/01/23 12:39:11 - Ordenar_name_ascendente.0 - Linenr 650000
+2023/01/23 12:39:11 - Data validator.0 - Linenr 1050000
+2023/01/23 12:39:11 - Ordenar_id_descendente.0 - Linenr 400000
+2023/01/23 12:39:11 - CSV file input.0 - Número de línea: 1100000
+2023/01/23 12:39:11 - Data validator.0 - Linenr 1100000
+2023/01/23 12:39:11 - Ordenar_name_ascendente.0 - Linenr 700000
+2023/01/23 12:39:11 - CSV file input.0 - Número de línea: 1150000
+2023/01/23 12:39:11 - Data validator.0 - Linenr 1150000
+2023/01/23 12:39:12 - CSV file input.0 - Procesamiento finalizado (EN=1188710, SA=0, LE=0, ES=1188709, AC=0, ER=0)
+2023/01/23 12:39:12 - Ordenar_name_ascendente.0 - Linenr 750000
+2023/01/23 12:39:12 - Strings cut.0 - Procesamiento finalizado (EN=0, SA=0, LE=1188709, ES=1188709, AC=0, ER=0)
+2023/01/23 12:39:12 - Data validator.0 - Procesamiento finalizado (EN=0, SA=0, LE=1188709, ES=764486, AC=0, ER=424223)
+2023/01/23 12:39:12 - Calcular.0 - Número de línea 50000
+2023/01/23 12:39:12 - Salida2 (XLS).0 - linenr 50000
+2023/01/23 12:39:13 - Calcular.0 - Número de línea 100000
+2023/01/23 12:39:13 - Salida2 (XLS).0 - linenr 100000
+2023/01/23 12:39:13 - Calcular.0 - Número de línea 150000
+2023/01/23 12:39:13 - Salida2 (XLS).0 - linenr 150000
+2023/01/23 12:39:13 - Calcular.0 - Número de línea 200000
+2023/01/23 12:39:13 - Salida2 (XLS).0 - linenr 200000
+2023/01/23 12:39:13 - Calcular.0 - Número de línea 250000
+2023/01/23 12:39:13 - Salida2 (XLS).0 - linenr 250000
+2023/01/23 12:39:13 - Calcular.0 - Número de línea 300000
+2023/01/23 12:39:13 - Salida2 (XLS).0 - linenr 300000
+2023/01/23 12:39:13 - Calcular.0 - Número de línea 350000
+2023/01/23 12:39:13 - Salida2 (XLS).0 - linenr 350000
+2023/01/23 12:39:13 - Calcular.0 - Número de línea 400000
+2023/01/23 12:39:13 - Salida2 (XLS).0 - linenr 400000
+2023/01/23 12:39:13 - Ordenar_id_descendente.0 - Procesamiento finalizado (EN=0, SA=0, LE=424223, ES=424223, AC=0, ER=0)
+2023/01/23 12:39:13 - Calcular.0 - Procesamiento finalizado (EN=0, SA=0, LE=424223, ES=424223, AC=0, ER=0)
+2023/01/23 12:39:13 - Salida2 (XLS).0 - Procesamiento finalizado (EN=0, SA=424224, LE=424223, ES=424223, AC=0, ER=0)
+2023/01/23 12:39:15 - Salida1 (PGSQL).0 - linenr 50000
+2023/01/23 12:39:17 - Salida1 (PGSQL).0 - linenr 100000
+2023/01/23 12:39:19 - Salida1 (PGSQL).0 - linenr 150000
+2023/01/23 12:39:21 - Salida1 (PGSQL).0 - linenr 200000
+2023/01/23 12:39:22 - Salida1 (PGSQL).0 - linenr 250000
+2023/01/23 12:39:24 - Salida1 (PGSQL).0 - linenr 300000
+2023/01/23 12:39:26 - Salida1 (PGSQL).0 - linenr 350000
+2023/01/23 12:39:27 - Salida1 (PGSQL).0 - linenr 400000
+2023/01/23 12:39:29 - Salida1 (PGSQL).0 - linenr 450000
+2023/01/23 12:39:31 - Salida1 (PGSQL).0 - linenr 500000
+2023/01/23 12:39:33 - Salida1 (PGSQL).0 - linenr 550000
+2023/01/23 12:39:34 - Salida1 (PGSQL).0 - linenr 600000
+2023/01/23 12:39:36 - Salida1 (PGSQL).0 - linenr 650000
+2023/01/23 12:39:38 - Salida1 (PGSQL).0 - linenr 700000
+2023/01/23 12:39:40 - Salida1 (PGSQL).0 - linenr 750000
+2023/01/23 12:39:40 - Ordenar_name_ascendente.0 - Procesamiento finalizado (EN=0, SA=0, LE=764486, ES=764486, AC=0, ER=0)
+2023/01/23 12:39:40 - Salida1 (PGSQL).0 - Procesamiento finalizado (EN=0, SA=764486, LE=764486, ES=764486, AC=0, ER=0)
+2023/01/23 12:39:40 - Trabajo1 - Entrada de comienzo [Los procesos se ejecutaron con Éxito]
+2023/01/23 12:39:40 - Trabajo1 - Finalizó la entrada de trabajo [Los procesos se ejecutaron con Éxito] (resultado=[true])
+2023/01/23 12:39:40 - Trabajo1 - Finalizó la entrada de trabajo [Transformación1] (resultado=[true])
+2023/01/23 12:39:40 - Trabajo1 - Entrada de comienzo [Transformación2]
+2023/01/23 12:39:40 - Transformación2 - Using run configuration [Pentaho local]
+2023/01/23 12:39:40 - Transformación2 - Iniciado despacho de la transformación [Transformación2]
+2023/01/23 12:39:40 - CSV file input.0 - Se omitió la fila encabezado en el archivo "D:/Documents/NBCH/desafío/artist_credit.csv"
+2023/01/23 12:39:40 - CSV file input.0 - Número de línea: 50000
+2023/01/23 12:39:41 - Validar_anio.0 - Linenr 50000
+2023/01/23 12:39:41 - Sin coincidencias..0 - Número de línea 50000
+2023/01/23 12:39:41 - CSV file input.0 - Número de línea: 100000
+2023/01/23 12:39:41 - Validar_anio.0 - Linenr 100000
+2023/01/23 12:39:41 - Sin coincidencias..0 - Número de línea 100000
+2023/01/23 12:39:41 - CSV file input.0 - Número de línea: 150000
+2023/01/23 12:39:41 - Validar_anio.0 - Linenr 150000
+2023/01/23 12:39:41 - Sin coincidencias..0 - Número de línea 150000
+2023/01/23 12:39:41 - CSV file input.0 - Número de línea: 200000
+2023/01/23 12:39:42 - Validar_anio.0 - Linenr 200000
+2023/01/23 12:39:42 - Sin coincidencias..0 - Número de línea 200000
+2023/01/23 12:39:42 - CSV file input.0 - Número de línea: 250000
+2023/01/23 12:39:42 - Validar_anio.0 - Linenr 250000
+2023/01/23 12:39:42 - Sin coincidencias..0 - Número de línea 250000
+2023/01/23 12:39:42 - CSV file input.0 - Número de línea: 300000
+2023/01/23 12:39:42 - Validar_anio.0 - Linenr 300000
+2023/01/23 12:39:42 - Sin coincidencias..0 - Número de línea 300000
+2023/01/23 12:39:43 - CSV file input.0 - Número de línea: 350000
+2023/01/23 12:39:43 - Validar_anio.0 - Linenr 350000
+2023/01/23 12:39:43 - Sin coincidencias..0 - Número de línea 350000
+2023/01/23 12:39:43 - CSV file input.0 - Número de línea: 400000
+2023/01/23 12:39:43 - Validar_anio.0 - Linenr 400000
+2023/01/23 12:39:43 - Sin coincidencias..0 - Número de línea 400000
+2023/01/23 12:39:43 - CSV file input.0 - Número de línea: 450000
+2023/01/23 12:39:43 - Validar_anio.0 - Linenr 450000
+2023/01/23 12:39:43 - Sin coincidencias..0 - Número de línea 450000
+2023/01/23 12:39:44 - CSV file input.0 - Número de línea: 500000
+2023/01/23 12:39:44 - Validar_anio.0 - Linenr 500000
+2023/01/23 12:39:44 - Sin coincidencias..0 - Número de línea 500000
+2023/01/23 12:39:44 - CSV file input.0 - Número de línea: 550000
+2023/01/23 12:39:44 - Validar_anio.0 - Linenr 550000
+2023/01/23 12:39:44 - Sin coincidencias..0 - Número de línea 550000
+2023/01/23 12:39:44 - CSV file input.0 - Número de línea: 600000
+2023/01/23 12:39:44 - Validar_anio.0 - Linenr 600000
+2023/01/23 12:39:44 - Sin coincidencias..0 - Número de línea 600000
+2023/01/23 12:39:45 - CSV file input.0 - Número de línea: 650000
+2023/01/23 12:39:45 - Validar_anio.0 - Linenr 650000
+2023/01/23 12:39:45 - Sin coincidencias..0 - Número de línea 650000
+2023/01/23 12:39:45 - CSV file input.0 - Número de línea: 700000
+2023/01/23 12:39:45 - Validar_anio.0 - Linenr 700000
+2023/01/23 12:39:45 - Sin coincidencias..0 - Número de línea 700000
+2023/01/23 12:39:45 - CSV file input.0 - Número de línea: 750000
+2023/01/23 12:39:45 - Validar_anio.0 - Linenr 750000
+2023/01/23 12:39:45 - Sin coincidencias..0 - Número de línea 750000
+2023/01/23 12:39:46 - CSV file input.0 - Número de línea: 800000
+2023/01/23 12:39:46 - Validar_anio.0 - Linenr 800000
+2023/01/23 12:39:46 - Sin coincidencias..0 - Número de línea 800000
+2023/01/23 12:39:46 - CSV file input.0 - Número de línea: 850000
+2023/01/23 12:39:46 - Validar_anio.0 - Linenr 850000
+2023/01/23 12:39:46 - Sin coincidencias..0 - Número de línea 850000
+2023/01/23 12:39:46 - CSV file input.0 - Número de línea: 900000
+2023/01/23 12:39:46 - Validar_anio.0 - Linenr 900000
+2023/01/23 12:39:46 - Sin coincidencias..0 - Número de línea 900000
+2023/01/23 12:39:47 - CSV file input.0 - Número de línea: 950000
+2023/01/23 12:39:47 - Validar_anio.0 - Linenr 950000
+2023/01/23 12:39:47 - Sin coincidencias..0 - Número de línea 950000
+2023/01/23 12:39:47 - CSV file input.0 - Número de línea: 1000000
+2023/01/23 12:39:47 - Validar_anio.0 - Linenr 1000000
+2023/01/23 12:39:47 - Sin coincidencias..0 - Número de línea 1000000
+2023/01/23 12:39:47 - CSV file input.0 - Número de línea: 1050000
+2023/01/23 12:39:47 - Validar_anio.0 - Linenr 1050000
+2023/01/23 12:39:47 - Sin coincidencias..0 - Número de línea 1050000
+2023/01/23 12:39:48 - CSV file input.0 - Número de línea: 1100000
+2023/01/23 12:39:48 - Validar_anio.0 - Linenr 1100000
+2023/01/23 12:39:48 - Sin coincidencias..0 - Número de línea 1100000
+2023/01/23 12:39:48 - CSV file input.0 - Número de línea: 1150000
+2023/01/23 12:39:48 - Validar_anio.0 - Linenr 1150000
+2023/01/23 12:39:48 - Sin coincidencias..0 - Número de línea 1150000
+2023/01/23 12:39:48 - CSV file input.0 - Procesamiento finalizado (EN=1188710, SA=0, LE=0, ES=1188709, AC=0, ER=0)
+2023/01/23 12:39:48 - Obtener_year.0 - Procesamiento finalizado (EN=0, SA=0, LE=1188709, ES=1188709, AC=0, ER=0)
+2023/01/23 12:39:48 - Validar_anio.0 - Procesamiento finalizado (EN=0, SA=0, LE=1188709, ES=0, AC=0, ER=1188709)
+2023/01/23 12:39:48 - Sin coincidencias..0 - Procesamiento finalizado (EN=0, SA=0, LE=1188709, ES=1188709, AC=0, ER=0)
+2023/01/23 12:39:48 - Trabajo1 - Entrada de comienzo [Los procesos se ejecutaron con Éxito]
+2023/01/23 12:39:48 - Trabajo1 - Finalizó la entrada de trabajo [Los procesos se ejecutaron con Éxito] (resultado=[true])
+2023/01/23 12:39:48 - Trabajo1 - Finalizó la entrada de trabajo [Transformación2] (resultado=[true])
+2023/01/23 12:39:48 - Trabajo1 - Ejecución del trabajo finalizada
+2023/01/23 12:39:48 - Kitchen - ¡Finalizado!
+2023/01/23 12:39:48 - Kitchen - Comienzo=2023/01/23 12:39:07.436, Final=2023/01/23 12:39:48.914
+2023/01/23 12:39:48 - Kitchen - El procesamiento terminó luego de 41 segundos.
