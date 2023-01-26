@@ -9,6 +9,21 @@
     <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
+      <parameter>
+        <name>FECHA_INGRESADA</name>
+        <default_value>2011-05-17</default_value>
+        <description>Fecha ingresada por parámetro.</description>
+      </parameter>
+      <parameter>
+        <name>FECHA_INGRESADA_YEAR</name>
+        <default_value>LEFT(${FECHA_INGRESADA};4)</default_value>
+        <description>Año de la fecha ingresada</description>
+      </parameter>
+      <parameter>
+        <name>PATH</name>
+        <default_value>D:/Documents/GitHub/pentaho/</default_value>
+        <description>Lugar donde se encuentran alojados los archivos</description>
+      </parameter>
     </parameters>
     <log>
       <trans-log-table>
@@ -574,7 +589,7 @@
     <hop>
       <from>Data validator</from>
       <to>Ordenar_name_ascendente</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Data validator</from>
@@ -775,7 +790,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>384</xloc>
+      <xloc>368</xloc>
       <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
@@ -879,7 +894,7 @@
     <schema>public</schema>
     <table>salida1</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>Y</ignore_errors>
     <use_batch>N</use_batch>
     <specify_fields>Y</specify_fields>
@@ -952,7 +967,7 @@
       <add_time>N</add_time>
       <SpecifyFormat>N</SpecifyFormat>
       <date_time_format/>
-      <add_to_result_filenames>Y</add_to_result_filenames>
+      <add_to_result_filenames>N</add_to_result_filenames>
       <pad>N</pad>
       <fast_dump>Y</fast_dump>
       <splitevery/>
